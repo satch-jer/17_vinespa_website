@@ -1,0 +1,15 @@
+.view-id-filter_articles {
+  max-width: 1200px;
+  margin: 0 auto; }
+  .view-id-filter_articles .views-row {
+    width: 100%; }
+    .view-id-filter_articles .views-row img {
+      width: 100%;
+      height: auto;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
+    .view-id-filter_articles .views-row img:hover {
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%); }
+
+/*# sourceMappingURL=image_grid.css.map */

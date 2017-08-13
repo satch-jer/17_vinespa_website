@@ -1,0 +1,30 @@
+@import 'assets';
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body{
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: $lh;
+  letter-spacing: 1px;
+  color: $antracite;
+}
+
+body{
+  font-size: $text;
+}
+
+a{
+  text-decoration: none;
+  color: $antracite;
+}
+
+.cf{
+  width: 1px;
+  visibility: hidden;
+  clear: both;
+}

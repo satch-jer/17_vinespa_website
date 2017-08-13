@@ -1,0 +1,49 @@
+@import 'assets';
+
+.landing-div{
+  width: 100%;
+  min-height: 250px;
+  height: 100vh;
+
+  //vertical centering solved by flexbox
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+
+  align-items: center;
+}
+
+.region-landing{
+  margin: 0 auto;
+  padding: 0 $m;
+  text-align: center;
+
+  .page-title{
+    text-transform: uppercase;
+    background-color: $antracite;
+    opacity: $opacity;
+    font-size: $title;
+    padding: $m;
+    color: $snow;
+    margin-bottom: $l;
+  }
+}
+
+.field--name-field-content-link{
+  text-align: center;
+  a{
+    background-color: $tinto;
+    color: $snow;
+    padding: $s $m;
+    border: 2px solid $tinto;
+    border-radius: 25px;
+  }
+  a:hover{
+    border: 2px solid $tintohover;
+    background-color: $tintohover;
+  }
+}

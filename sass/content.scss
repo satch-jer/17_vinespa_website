@@ -1,0 +1,33 @@
+@import 'assets';
+
+main{
+  margin-top: $xxl;
+
+  #block-mainpagecontent{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 $m;
+  }
+
+  h2{
+    text-transform: uppercase;
+    font-size: $title;
+    margin-bottom: $s;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  //subtitles
+  .field--name-field-content-subtitle{
+    font-family: "Crimson Text", serif;
+    color: $verycloudy;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: $m;
+  }
+
+  p{
+    font-size: $text;
+    margin-bottom: $s;
+  }
+}

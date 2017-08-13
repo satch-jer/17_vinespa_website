@@ -1,0 +1,93 @@
+@import 'assets';
+
+//building a fixed header
+header{
+  background-color: $antracite;
+  opacity: $opacity;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  font-size: $nav;
+}
+
+//::: login for webshop hidden on mobile :::
+.region-header{
+  display: none;
+}
+
+.header-nav{
+  width: 100%;
+
+  .region-nav{
+    margin: $m $s;
+    text-align: center;
+
+    #block-eltema-branding{
+      img{
+        width: 60px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    #block-eltema-navigation{
+      margin: $l $s 0 $s;
+      text-align: center;
+      display: inline-block;
+
+      ul{
+        li{
+          display: inline-block;
+          a{
+            color: $snow;
+            padding: $m $s;
+          }
+          a.is-active, a:hover{
+            background-color: $snow;
+            border-bottom: 2px solid $tinto;
+            color: $antracite;
+          }
+        }
+      }
+    }
+
+    #block-languagedropdownswitcher{
+      display: inline-block;
+      margin-top: $l;
+
+      select{
+        background-color: transparent;
+        color: $snow;
+        border: none;
+        //try to hide default arrows
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+
+      //try to hide default arrows
+      select::-ms-expand {
+        display: none;
+      }
+
+      //no blue border
+      select:focus{
+        outline: 0;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+
+
+
+

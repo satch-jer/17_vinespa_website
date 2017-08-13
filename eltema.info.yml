@@ -1,0 +1,22 @@
+name: Eltema
+type: theme
+description: 'El maravilloso tema de Vinespa'
+package: Core
+version: 1
+core: 8.x
+base theme: classy
+
+libraries:
+  - core/normalize
+  - eltema/global-styling
+
+libraries-override:
+  classy/base: false
+
+regions:
+  header: Header
+  nav: Nav
+  landing: Landing
+  content: Content
+  blocks: Blocks
+  footer: Footer
