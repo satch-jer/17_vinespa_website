@@ -1,0 +1,38 @@
+@import 'assets';
+
+#block-vinos, #block-licores, #block-alimentacion{
+  display: inline-block;
+  width: 33.1%;
+  height: 250px;
+  text-align: center;
+
+  .field--name-field-block-block-icon{
+    padding-top: $xl;
+    padding-bottom: $m;
+  }
+
+  .field--name-field-block-block-link{
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-size: $text;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .field--name-field-block-block-sub{
+    font-family: "Crimson Text", serif;
+    color: $verycloudy;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: $m;
+    font-size: $text;
+  }
+}
+
+#block-vinos{
+  background-color: $cloudy;
+}
+
+#block-alimentacion{
+  background-color: $semicloudy;
+}

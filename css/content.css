@@ -2,7 +2,7 @@
 .main-contentpage {
   margin-top: 200px; }
 
-#block-mainpagecontent, .region-blocks {
+#block-mainpagecontent, .view-content, #block-nuestrosproductos {
   max-width: 1200px;
   margin: 0 auto 50px auto;
   padding: 0 50px; }
@@ -33,5 +33,30 @@ p {
   font-size: 0.9em; }
 .field--name-field-content-block-link a:hover {
   color: #66146A; }
+
+#block-team {
+  padding-top: 200px;
+  height: 400px;
+  text-align: center; }
+  #block-team .field--name-field-content-image-block-title {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #293133;
+    opacity: 0.85;
+    font-size: 1.5em;
+    padding: 25px;
+    color: #ffffff;
+    margin-bottom: 50px; }
+  #block-team .field--name-field-content-image-block-button {
+    text-align: center; }
+    #block-team .field--name-field-content-image-block-button a {
+      background-color: #811F58;
+      color: #ffffff;
+      padding: 10px 25px;
+      border: 2px solid #811F58;
+      border-radius: 25px; }
+    #block-team .field--name-field-content-image-block-button a:hover {
+      border: 2px solid #66146A;
+      background-color: #66146A; }
 
 /*# sourceMappingURL=content.css.map */

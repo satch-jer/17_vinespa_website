@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
+#block-vinos, #block-licores, #block-alimentacion {
+  display: inline-block;
+  width: 33.1%;
+  height: 250px;
+  text-align: center; }
+  #block-vinos .field--name-field-block-block-icon, #block-licores .field--name-field-block-block-icon, #block-alimentacion .field--name-field-block-block-icon {
+    padding-top: 100px;
+    padding-bottom: 25px; }
+  #block-vinos .field--name-field-block-block-link, #block-licores .field--name-field-block-block-link, #block-alimentacion .field--name-field-block-block-link {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: 400; }
+  #block-vinos .field--name-field-block-block-sub, #block-licores .field--name-field-block-block-sub, #block-alimentacion .field--name-field-block-block-sub {
+    font-family: "Crimson Text", serif;
+    color: #969696;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 0.9em; }
+
+#block-vinos {
+  background-color: #f0f0f0; }
+
+#block-alimentacion {
+  background-color: #f9f9f9; }
+
+/*# sourceMappingURL=categories.css.map */

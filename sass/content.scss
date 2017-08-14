@@ -8,7 +8,7 @@
 
 }
 
-#block-mainpagecontent, .region-blocks{
+#block-mainpagecontent, .view-content, #block-nuestrosproductos{
   max-width: 1200px;
   margin: 0 auto $l auto;
   padding: 0 $l;
@@ -48,5 +48,37 @@ p{
   }
   a:hover{
     color: $tintohover;
+  }
+}
+
+#block-team{
+  padding-top: 200px;
+  height: 400px;
+  text-align: center;;
+
+  .field--name-field-content-image-block-title{
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: $antracite;
+    opacity: $opacity;
+    font-size: $title;
+    padding: $m;
+    color: $snow;
+    margin-bottom: $l;
+  }
+
+  .field--name-field-content-image-block-button{
+    text-align: center;
+    a{
+      background-color: $tinto;
+      color: $snow;
+      padding: $s $m;
+      border: 2px solid $tinto;
+      border-radius: 25px;
+    }
+    a:hover{
+      border: 2px solid $tintohover;
+      background-color: $tintohover;
+    }
   }
 }

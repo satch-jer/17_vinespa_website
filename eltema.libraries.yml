@@ -8,6 +8,7 @@ global-styling:
       css/landing.css: {}
       css/content.css: {}
       css/image_grid.css: {}
+      css/categories.css: {}
       css/footer.css: {}
   js:
     js/eltema.js: {}
