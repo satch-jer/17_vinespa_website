@@ -1,24 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
-main {
-  margin-top: 225px; }
-  main #block-mainpagecontent {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 25px; }
-  main h2 {
-    text-transform: uppercase;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    text-align: center;
-    font-weight: 400; }
-  main .field--name-field-content-subtitle {
-    font-family: "Crimson Text", serif;
-    color: #969696;
-    font-style: italic;
-    text-align: center;
-    margin-bottom: 25px; }
-  main p {
-    font-size: 0.9em;
-    margin-bottom: 10px; }
+.main-contentpage {
+  margin-top: 200px; }
+
+#block-mainpagecontent, .region-blocks {
+  max-width: 1200px;
+  margin: 0 auto 50px auto;
+  padding: 0 50px; }
+
+.block-block-content {
+  margin-bottom: 50px; }
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 400; }
+
+.field--name-field-content-subtitle, .field--name-field-content-block-subtitle {
+  font-family: "Crimson Text", serif;
+  color: #969696;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 25px; }
+
+p {
+  font-size: 0.9em;
+  margin-bottom: 10px; }
+
+.field--name-field-content-block-link a {
+  color: #811F58;
+  font-weight: 700;
+  font-size: 0.9em; }
+.field--name-field-content-block-link a:hover {
+  color: #66146A; }
 
 /*# sourceMappingURL=content.css.map */

@@ -1,33 +1,52 @@
 @import 'assets';
 
-main{
+.main-contentpage{
   margin-top: $xxl;
+}
 
-  #block-mainpagecontent{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 $m;
-  }
+.main-contentpage-image{
 
-  h2{
-    text-transform: uppercase;
-    font-size: $title;
-    margin-bottom: $s;
-    text-align: center;
-    font-weight: 400;
-  }
+}
 
-  //subtitles
-  .field--name-field-content-subtitle{
-    font-family: "Crimson Text", serif;
-    color: $verycloudy;
-    font-style: italic;
-    text-align: center;
-    margin-bottom: $m;
-  }
+#block-mainpagecontent, .region-blocks{
+  max-width: 1200px;
+  margin: 0 auto $l auto;
+  padding: 0 $l;
+}
 
-  p{
+.block-block-content{
+  margin-bottom: $l;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: $title;
+  text-align: center;
+  font-weight: 400;
+}
+
+//subtitles
+.field--name-field-content-subtitle, .field--name-field-content-block-subtitle{
+  font-family: "Crimson Text", serif;
+  color: $verycloudy;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: $m;
+}
+
+p{
+  font-size: $text;
+  margin-bottom: $s;
+}
+
+//read more link
+.field--name-field-content-block-link{
+  a{
+    color: $tinto;
+    font-weight: 700;
     font-size: $text;
-    margin-bottom: $s;
+  }
+  a:hover{
+    color: $tintohover;
   }
 }

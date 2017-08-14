@@ -23,7 +23,7 @@ header {
       display: block;
       margin: 0 auto; }
     .header-nav .region-nav #block-eltema-navigation {
-      margin: 50px 10px 0 10px;
+      margin: 25px 10px 0 10px;
       text-align: center;
       display: inline-block; }
       .header-nav .region-nav #block-eltema-navigation ul li {
@@ -37,7 +37,7 @@ header {
           color: #293133; }
     .header-nav .region-nav #block-languagedropdownswitcher {
       display: inline-block;
-      margin-top: 50px; }
+      margin-top: 25px; }
       .header-nav .region-nav #block-languagedropdownswitcher select {
         background-color: transparent;
         color: #ffffff;

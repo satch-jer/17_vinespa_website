@@ -1,8 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
 .view-id-filter_articles {
   max-width: 1200px;
   margin: 0 auto; }
+  .view-id-filter_articles .view-filters {
+    text-align: center;
+    margin-bottom: 50px; }
+    .view-id-filter_articles .view-filters .item-list ul li {
+      display: inline;
+      font-weight: 700;
+      padding: 0 10px; }
+    .view-id-filter_articles .view-filters .item-list ul li .active {
+      color: #969696;
+      border-bottom: 2px solid #969696; }
+    .view-id-filter_articles .view-filters .item-list ul li a:hover {
+      color: #969696;
+      border-bottom: 2px solid #969696; }
   .view-id-filter_articles .views-row {
-    width: 100%; }
+    width: 100%;
+    margin: 0 10px 25px 10px;
+    text-align: center; }
     .view-id-filter_articles .views-row img {
       width: 100%;
       height: auto;
@@ -11,5 +27,24 @@
     .view-id-filter_articles .views-row img:hover {
       -webkit-filter: grayscale(0%);
       filter: grayscale(0%); }
+    .view-id-filter_articles .views-row .views-field-title a {
+      color: #293133;
+      font-size: 0.9em;
+      font-family: "Crimson Text", serif;
+      font-style: italic; }
+    .view-id-filter_articles .views-row .views-field-field-bebidas-productor a {
+      color: #969696;
+      font-size: 0.9em;
+      font-family: "Crimson Text", serif;
+      font-style: italic; }
+
+@media screen and (min-width: 650px) {
+  .view-id-filter_articles .views-row {
+    width: 49%;
+    display: inline-block;
+    margin: 25px 0 0 0; } }
+@media screen and (min-width: 1300px) {
+  .view-id-filter_articles .views-row {
+    width: 32%; } }
 
 /*# sourceMappingURL=image_grid.css.map */
