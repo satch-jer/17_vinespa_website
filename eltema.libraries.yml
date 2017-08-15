@@ -9,6 +9,8 @@ global-styling:
       css/content.css: {}
       css/image_grid.css: {}
       css/categories.css: {}
+      css/team.css: {}
+      css/map.css: {}
       css/footer.css: {}
   js:
     js/eltema.js: {}

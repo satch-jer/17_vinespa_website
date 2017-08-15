@@ -18,6 +18,9 @@ a {
   text-decoration: none;
   color: #293133; }
 
+a:focus, button:focus, select:focus, input[type="submit"]:focus, area:focus {
+  outline: 0; }
+
 .cf {
   width: 1px;
   visibility: hidden;

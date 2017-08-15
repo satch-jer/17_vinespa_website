@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
 #block-vinos, #block-licores, #block-alimentacion {
-  display: inline-block;
-  width: 33.1%;
+  display: block;
+  width: 100%;
   height: 250px;
   text-align: center; }
   #block-vinos .field--name-field-block-block-icon, #block-licores .field--name-field-block-block-icon, #block-alimentacion .field--name-field-block-block-icon {
@@ -25,6 +25,11 @@
   background-color: #f0f0f0; }
 
 #block-alimentacion {
-  background-color: #f9f9f9; }
+  background-color: #f0f0f0; }
+
+@media screen and (min-width: 750px) {
+  #block-vinos, #block-licores, #block-alimentacion {
+    display: inline-block;
+    width: 32.9%; } }
 
 /*# sourceMappingURL=categories.css.map */
