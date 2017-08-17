@@ -1,0 +1,32 @@
+@import 'assets';
+
+#block-webform{
+  form{
+    text-align: center;
+
+    input, textarea{
+      width: 90%;
+      max-width: 450px;
+      padding: $xs;
+      margin-bottom: $s;
+    }
+
+    input[type="submit"]{
+      width: 50%;
+      max-width: 200px;
+      background-color: $tinto;
+      color: $snow;
+      padding: $s $m;
+      border: 2px solid $tinto;
+      border-radius: 25px;
+    }
+    input[type="submit"]:hover{
+      border: 2px solid $tintohover;
+      background-color: $tintohover;
+    }
+  }
+
+  .messages--error, .messages--status{
+    margin-bottom: $m;
+  }
+}

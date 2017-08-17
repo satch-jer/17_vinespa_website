@@ -4,7 +4,8 @@
   margin-top: $xxl;
 }
 
-#block-mainpagecontent, .view-content, #block-nuestrosproductos{
+#block-mainpagecontent, .view-content, #block-nuestrosproductos, #block-webform{
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto $l auto;
   padding: 0 $l;

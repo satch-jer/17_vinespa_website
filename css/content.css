@@ -2,7 +2,8 @@
 .main-contentpage {
   margin-top: 200px; }
 
-#block-mainpagecontent, .view-content, #block-nuestrosproductos {
+#block-mainpagecontent, .view-content, #block-nuestrosproductos, #block-webform {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto 50px auto;
   padding: 0 50px; }

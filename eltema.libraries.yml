@@ -7,6 +7,7 @@ global-styling:
       css/header.css: {}
       css/landing.css: {}
       css/content.css: {}
+      css/contact.css: {}
       css/image_grid.css: {}
       css/categories.css: {}
       css/team.css: {}
