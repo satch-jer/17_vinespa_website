@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
+.node--type-bebidas-page {
+  margin-top: 50px; }
+  .node--type-bebidas-page .field--type-image {
+    text-align: center; }
+    .node--type-bebidas-page .field--type-image img {
+      width: 100%;
+      max-width: 300px;
+      height: auto; }
+  .node--type-bebidas-page .field {
+    padding: 5px 0; }
+    .node--type-bebidas-page .field h2 {
+      font-size: 100%;
+      font-weight: 400;
+      text-transform: capitalize;
+      text-align: left; }
+    .node--type-bebidas-page .field .field__label {
+      display: inline-block;
+      width: 150px; }
+    .node--type-bebidas-page .field .field__items {
+      display: inline-block; }
+    .node--type-bebidas-page .field .field__item {
+      display: inline-block; }
+      .node--type-bebidas-page .field .field__item a {
+        border-bottom: 1px dotted #293133; }
+      .node--type-bebidas-page .field .field__item a:hover {
+        border-bottom: 1px solid #293133; }
+
+/*# sourceMappingURL=bebidas.css.map */

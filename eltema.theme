@@ -22,3 +22,9 @@ function eltema_theme_suggestions_page_alter(array &$suggestions, array $variabl
     $suggestions[] = 'page__content_page_';
   }
 }
+
+function eltema_preprocess_links(&$variables) {
+    if (isset($variables['links']['node-readmore'])) {
+      $variables['links']['node-readmore']['link']['#title'] = t('... read more ...');
+    }
+}

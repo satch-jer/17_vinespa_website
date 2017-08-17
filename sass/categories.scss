@@ -3,7 +3,7 @@
 #block-vinos, #block-licores, #block-alimentacion{
   display: block;
   width: 100%;
-  height: 250px;
+  height: 350px;
   text-align: center;
 
   .field--name-field-block-block-icon{
@@ -39,7 +39,7 @@
   background-color: $cloudy;
 }
 
-@media screen and (min-width: 750px){
+@media screen and (min-width: 1000px){
   #block-vinos, #block-licores, #block-alimentacion{
     display: inline-block;
     width: 32.9%;

@@ -11,6 +11,7 @@ global-styling:
       css/categories.css: {}
       css/team.css: {}
       css/map.css: {}
+      css/bebidas.css: {}
       css/footer.css: {}
   js:
     js/eltema.js: {}

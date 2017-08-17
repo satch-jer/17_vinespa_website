@@ -27,11 +27,12 @@ p {
   font-size: 0.9em;
   margin-bottom: 10px; }
 
-.field--name-field-content-block-link a {
+.field--name-field-content-block-link a, .node-readmore a {
   color: #811F58;
   font-weight: 700;
-  font-size: 0.9em; }
-.field--name-field-content-block-link a:hover {
+  font-size: 0.9em;
+  text-transform: lowercase; }
+.field--name-field-content-block-link a:hover, .node-readmore a:hover {
   color: #66146A; }
 
 /*# sourceMappingURL=content.css.map */

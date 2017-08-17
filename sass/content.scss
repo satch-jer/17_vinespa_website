@@ -36,11 +36,12 @@ p{
 }
 
 //read more link
-.field--name-field-content-block-link{
+.field--name-field-content-block-link, .node-readmore{
   a{
     color: $tinto;
     font-weight: 700;
     font-size: $text;
+    text-transform: lowercase;
   }
   a:hover{
     color: $tintohover;
