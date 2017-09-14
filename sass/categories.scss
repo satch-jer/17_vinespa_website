@@ -1,47 +1,30 @@
-@import 'assets';
+@import "assets", "elements";
 
-#block-vinos, #block-licores, #block-alimentacion{
-  display: block;
-  width: 100%;
-  height: 350px;
+//category-blocks on homepage
+
+#block-vinos, #block-alimentacion{
+  background-color: $cloudy;
+}
+
+#block-vinos, #block-alimentacion, #block-licores{
+  padding-top: $l;
+  padding-bottom: $l;
   text-align: center;
 
+  //icon
   .field--name-field-block-block-icon{
-    padding-top: $xl;
-    padding-bottom: $m;
-  }
-
-  //header text
-  .field--name-field-block-block-link{
-    text-transform: lowercase;
-    font-variant: small-caps;
-    font-size: $text;
-    text-align: center;
-    font-weight: 400;
-  }
-
-  //header subtitle
-  .field--name-field-block-block-sub{
-    font-family: "Crimson Text", serif;
-    color: $verycloudy;
-    font-style: italic;
-    text-align: center;
     margin-bottom: $m;
-    font-size: $text;
   }
-}
 
-#block-vinos{
-  background-color: $cloudy;
-}
+  //title
+  .field--name-field-block-block-link{
+    a{
+      @extend .title;
+    }
+  }
 
-#block-alimentacion{
-  background-color: $cloudy;
-}
-
-@media screen and (min-width: 1000px){
-  #block-vinos, #block-licores, #block-alimentacion{
-    display: inline-block;
-    width: 32.9%;
+  //subtitle
+  .field--name-field-block-block-sub{
+    @extend .subtitle;
   }
 }

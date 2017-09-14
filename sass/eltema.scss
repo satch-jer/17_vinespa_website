@@ -1,36 +1,22 @@
-@import 'assets';
+@import "assets";
 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+//high level styles
 
 html, body{
   font-family: Montserrat, sans-serif;
-  font-size: 16px;
-  line-height: $lh;
+  font-size: 62.5%;
+  line-height: 1.5;
   letter-spacing: 1px;
   color: $antracite;
 }
 
 body{
-  font-size: $text;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
-a{
-  text-decoration: none;
-  color: $antracite;
-}
-
-a:focus, button:focus, select:focus, input[type="submit"]:focus, area:focus{
-  outline: 0;
-}
-
-.cf{
-  width: 1px;
-  visibility: hidden;
-  clear: both;
+//contains all content (also header)
+.layout-container{
+  width: 100%;
+  box-sizing: border-box;
 }

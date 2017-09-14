@@ -1,39 +1,110 @@
 @import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
-.main-contentpage {
-  margin-top: 200px; }
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
+h1 {
+  padding: 0;
+  margin: 0; }
 
-#block-mainpagecontent, .view-content, #block-nuestrosproductos, #block-webform {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto 50px auto;
-  padding: 0 50px; }
+.supertitle, #block-team .field--name-field-content-image-block-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  background-color: rgba(41, 49, 51, 0.95);
+  padding: 15px;
+  font-weight: 400;
+  display: inline-block; }
 
-.block-block-content {
-  margin-bottom: 50px; }
+.title, h2, h2 a {
+  text-transform: uppercase;
+  font-size: 1.8rem !important;
+  font-weight: 500 !important;
+  color: #293133; }
 
 h2 {
-  text-transform: uppercase;
-  font-size: 1.3em;
-  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+
+.subtitle, .field--name-field-content-subtitle, .field--name-field-content-block-subtitle, .view-filter-articles .view-content .views-row .views-field-title a, .view-filter-articles .view-content .views-row .views-field-field-bebidas-productor a {
+  font-family: "Crimson Text", serif;
+  font-size: 1.5rem;
+  color: #969696;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-style: italic; }
+
+p {
+  font-size: 1.5rem;
   font-weight: 400; }
 
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 400;
+  color: #293133; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.block_default, #block-views-block-sobre-block-block-1, #block-nuestrosproductos, .view-filter-articles .view-content {
+  padding: 75px 25px;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.field--name-field-content-link, .field--name-field-content-image-block-button {
+  margin-top: 25px; }
+  .field--name-field-content-link a, .field--name-field-content-image-block-button a {
+    color: #ffffff;
+    background-color: #811F58;
+    padding: 15px;
+    border-radius: 25px; }
+  .field--name-field-content-link a:hover, .field--name-field-content-image-block-button a:hover {
+    background-color: #66146A; }
+
+.node-readmore, .field--name-field-content-block-link {
+  text-align: center; }
+  .node-readmore a, .field--name-field-content-block-link a {
+    font-weight: 500;
+    color: #811F58; }
+
 .field--name-field-content-subtitle, .field--name-field-content-block-subtitle {
-  font-family: "Crimson Text", serif;
-  color: #969696;
-  font-style: italic;
   text-align: center;
   margin-bottom: 25px; }
 
-p {
-  font-size: 0.9em;
-  margin-bottom: 10px; }
+#block-team {
+  width: 100%;
+  height: 450px;
+  text-align: center; }
+  #block-team .field--name-field-content-image-block-title {
+    margin-top: 250px; }
 
-.field--name-field-content-block-link a, .node-readmore a {
-  color: #811F58;
-  font-weight: 700;
-  font-size: 0.9em;
-  text-transform: lowercase; }
-.field--name-field-content-block-link a:hover, .node-readmore a:hover {
-  color: #66146A; }
+.view-filter-articles .view-filters {
+  text-align: center; }
+  .view-filter-articles .view-filters li {
+    display: inline-block; }
+  .view-filter-articles .view-filters a {
+    font-weight: 500;
+    padding: 15px;
+    text-transform: lowercase;
+    font-size: 1.5rem; }
+  .view-filter-articles .view-filters a:hover {
+    color: #969696; }
+  .view-filter-articles .view-filters a.active {
+    color: #969696; }
+.view-filter-articles .view-content {
+  text-align: center; }
+  .view-filter-articles .view-content .views-row {
+    margin-bottom: 25px; }
+    .view-filter-articles .view-content .views-row .views-field-field-bebidas-foto img {
+      width: 250px;
+      height: auto;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
+    .view-filter-articles .view-content .views-row .views-field-field-bebidas-foto img:hover {
+      -webkit-filter: none;
+      filter: none; }
+    .view-filter-articles .view-content .views-row .views-field-title a {
+      color: #293133 !important; }
 
 /*# sourceMappingURL=content.css.map */

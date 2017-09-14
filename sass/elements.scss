@@ -1,0 +1,96 @@
+@import "assets";
+
+//elements that can be reused
+
+h1{
+  padding: 0;
+  margin: 0;
+}
+
+.supertitle{
+  color: $snow;
+  text-transform: uppercase;
+  font-size: $title;
+  background-color: $antracite_opacity;
+  padding: $s;
+  font-weight: 400;
+  display: inline-block;
+}
+
+//title in sans serif font
+.title{
+  text-transform: uppercase;
+  font-size: $subtitle !important;
+  font-weight: 500 !important;
+  color: $antracite;
+}
+
+h2{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  @extend .title;
+  a{
+    @extend .title;
+  }
+}
+
+//grey subtitle in serif font
+.subtitle{
+  font-family: "Crimson Text", serif;
+  font-size: $text;
+  color: $verycloudy;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+p{
+  font-size: $text;
+  font-weight: 400;
+}
+
+a{
+  font-size: $text;
+  text-decoration: none;
+  font-weight: 400;
+  color: $antracite;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+//default block styling
+.block_default{
+  padding: $l $m;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+//red button
+.field--name-field-content-link, .field--name-field-content-image-block-button{
+  margin-top: $m;
+
+  a{
+    color: $snow;
+    background-color: $tinto;
+    padding: $s;
+    border-radius: 25px;
+  }
+  
+  a:hover{
+    background-color: $tintohover;
+  }
+}
+
+//red link
+.node-readmore, .field--name-field-content-block-link{
+  text-align: center;
+  a{
+    font-weight: 500;
+    color: $tinto;
+  }
+}

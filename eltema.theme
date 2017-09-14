@@ -25,6 +25,6 @@ function eltema_theme_suggestions_page_alter(array &$suggestions, array $variabl
 
 function eltema_preprocess_links(&$variables) {
     if (isset($variables['links']['node-readmore'])) {
-      $variables['links']['node-readmore']['link']['#title'] = t('... read more ...');
+      $variables['links']['node-readmore']['link']['#title'] = t('read more ...');
     }
 }

@@ -1,50 +1,81 @@
-@import 'assets';
+@import "assets", "elements";
 
-.main-contentpage{
-  margin-top: $xxl;
+//general content
+
+#block-views-block-sobre-block-block-1, #block-nuestrosproductos{
+  @extend .block_default;
 }
 
-#block-mainpagecontent, .view-content, #block-nuestrosproductos, #block-webform{
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto $l auto;
-  padding: 0 $l;
-}
-
-.block-block-content{
-  margin-bottom: $l;
-}
-
-h2{
-  text-transform: uppercase;
-  font-size: $title;
-  text-align: center;
-  font-weight: 400;
-}
-
-//subtitles
 .field--name-field-content-subtitle, .field--name-field-content-block-subtitle{
-  font-family: "Crimson Text", serif;
-  color: $verycloudy;
-  font-style: italic;
+  @extend .subtitle;
   text-align: center;
+  //subtitle needs bit more margin-bottom
   margin-bottom: $m;
 }
 
-p{
-  font-size: $text;
-  margin-bottom: $s;
+//team section is special!
+#block-team{
+  width: 100%;
+  height: 450px;
+  text-align: center;
+
+  .field--name-field-content-image-block-title{
+    @extend .supertitle;
+    margin-top: 250px;
+  }
 }
 
-//read more link
-.field--name-field-content-block-link, .node-readmore{
-  a{
-    color: $tinto;
-    font-weight: 700;
-    font-size: $text;
-    text-transform: lowercase;
+//product grid
+.view-filter-articles{
+  .view-filters{
+    text-align: center;
+    li{
+      display: inline-block;
+    }
+    a{
+      font-weight: 500;
+      padding: $s;
+      text-transform: lowercase;
+      font-size: $text;
+    }
+    a:hover{
+      color: $verycloudy;
+    }
+    a.active{
+      color: $verycloudy;
+    }
   }
-  a:hover{
-    color: $tintohover;
+
+  .view-content{
+    @extend .block_default;
+    text-align: center;
+
+    .views-row{
+      margin-bottom: $m;
+      .views-field-field-bebidas-foto{
+        img{
+          width: $xxl;
+          height: auto;
+          -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+        }
+        img:hover{
+          -webkit-filter: none;
+          filter: none;
+        }
+      }
+      .views-field-title{
+        a{
+          @extend .subtitle;
+          color: $antracite !important;
+        }
+      }
+      .views-field-field-bebidas-productor{
+        a{
+          @extend .subtitle;
+        }
+      }
+    }
+
   }
 }

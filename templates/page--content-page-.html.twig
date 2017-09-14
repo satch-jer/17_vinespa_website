@@ -43,7 +43,9 @@
     {# content page without landing image #}
 
     <header role="banner">
-        {{ page.header }}
+        <div class="header-login">
+            {{ page.header }}
+        </div>
         <div class="header-nav">
             {{ page.nav }}
         </div>
@@ -52,11 +54,11 @@
     <main role="main" class="main-contentpage">
         <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-        <div class="layout-content">
+        <div class="main-content">
             {{ page.content }}
         </div>{# /.layout-content #}
 
-        <div class="layout-block">
+        <div class="main-block">
             {{ page.blocks }}
         </div>
     </main>

@@ -1,31 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
 html, body {
   font-family: Montserrat, sans-serif;
-  font-size: 16px;
+  font-size: 62.5%;
   line-height: 1.5;
   letter-spacing: 1px;
   color: #293133; }
 
 body {
-  font-size: 0.9em; }
+  font-size: 1.6rem;
+  line-height: 1.5; }
 
-a {
-  text-decoration: none;
-  color: #293133; }
-
-a:focus, button:focus, select:focus, input[type="submit"]:focus, area:focus {
-  outline: 0; }
-
-.cf {
-  width: 1px;
-  visibility: hidden;
-  clear: both; }
+.layout-container {
+  width: 100%;
+  box-sizing: border-box; }
 
 /*# sourceMappingURL=eltema.css.map */

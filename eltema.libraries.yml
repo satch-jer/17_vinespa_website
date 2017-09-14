@@ -2,8 +2,8 @@ global-styling:
   version: 1
   css:
     base:
-      css/reset.css: {}
       css/eltema.css: {}
+      css/elements.css: {}
       css/header.css: {}
       css/landing.css: {}
       css/content.css: {}
@@ -12,6 +12,7 @@ global-styling:
       css/categories.css: {}
       css/team.css: {}
       css/map.css: {}
+      css/tax.css: {}
       css/bebidas.css: {}
       css/footer.css: {}
   js:
@@ -20,3 +21,8 @@ global-styling:
     - core/jquery
     - core/jquery.once
     - core/drupal
+
+landing:
+  version: 1
+  js:
+    js/landing.js: {}

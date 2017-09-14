@@ -7,16 +7,16 @@
 
 // ::: font sizes :::
 
-  $title: 1.3em;
-  $subtitle: 1.3em;
-  $text: 0.9em;
-  $nav: 0.85em;
-  $lh: 1.5;
-
+  $title: 2.4rem;
+  $subtitle: 1.8rem;
+  $text: 1.5rem;
+  $nav: 1.3rem;
 
 // ::: colors :::
 
   $antracite: #293133;
+  $antracite_opacity: rgba(41,49,51,0.95);
+
   $snow: #ffffff;
   $cloudy: #f0f0f0;
   $verycloudy: #969696;
@@ -27,11 +27,12 @@
 // ::: distances :::
 
   $xs: 5px;
-  $s: 10px;
+  $s: 15px;
   $m: 25px;
-  $l: 50px;
+  $ml: 50px;
+  $l: 75px;
   $xl: 100px;
-  $xxl: 200px;
+  $xxl: 250px;
 
 
 

@@ -1,21 +1,21 @@
-@import 'assets';
+@import "assets";
 
 footer{
   background-color: $antracite;
-  margin-top: $l;
+}
 
-  .region-footer{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: $xl $m;
-  }
-  #block-vinespanv{
-    h2, p{
-      font-size: $nav;
-      text-transform: lowercase;
-      color: $snow;
-      text-align: right;
-      margin-bottom: 0;
-    }
+.region-footer{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: $xl $m;
+}
+
+#block-vinespanv{
+  h2, p{
+    color: $snow;
+    font-size: $nav !important;
+    font-weight: 400 !important;
+    text-align: right;
+    text-transform: lowercase;
   }
 }

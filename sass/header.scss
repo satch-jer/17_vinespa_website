@@ -1,93 +1,103 @@
-@import 'assets';
+@import "assets";
 
-//building a fixed header
-header{
-  background-color: $antracite;
-  opacity: $opacity;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  font-size: $nav;
-}
+//header
 
-//::: login for webshop hidden on mobile :::
-.region-header{
-  display: none;
-}
+//login menu (top of page)
+.header-login{
+  background-color: $antracite_opacity;
 
-.header-nav{
-  width: 100%;
-
-  .region-nav{
-    margin: $m $s;
-    text-align: center;
-
-    #block-eltema-branding{
-      img{
-        width: 60px;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-      }
-    }
-
-    #block-eltema-navigation{
-      margin: $m $s 0 $s;
-      text-align: center;
-      display: inline-block;
-
-      ul{
-        li{
-          display: inline-block;
-          a{
-            color: $snow;
-            padding: $m $s;
-          }
-          a.is-active, a:hover{
-            background-color: $snow;
-            border-bottom: 2px solid $tinto;
-            color: $antracite;
-          }
-        }
-      }
-    }
-
-    #block-languagedropdownswitcher{
-      display: inline-block;
-      margin-top: $m;
-
-      select{
-        background-color: transparent;
-        color: $snow;
-        border: none;
-        //try to hide default arrows
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-      }
-
-      //try to hide default arrows
-      select::-ms-expand {
-        display: none;
-      }
-
-      //no blue border
-      select:focus{
-        outline: 0;
-      }
-    }
-
+  .region-header{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: right;
   }
 }
 
+//navigation menu
+.header-nav{
+  background: $antracite;
 
+  .region-nav{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
 
+//the <nav> elements
+nav{
+  padding: 0 $m;
 
+  //lists are inline
+  li{
+    display: inline-block;
+  }
 
+  //all nav links are white
+  //all nav links are lowercase
+  a{
+    display: inline-block;
+    color: $snow;
+    text-transform: lowercase;
+    padding: $s;
+    font-size: $nav;
+  }
+}
 
+//branding/logo zone
+#block-eltema-branding{
+  //menu links have padding also
+  padding-top: $s;
+  padding-bottom: $s;
+  text-align: center;
 
+  img{
+    width: 25%;
+    max-width: 125px;
+    height: auto;
+  }
+}
 
+//text-align center for the navigation zone, but not for the login zone
+#block-eltema-navigation{
+  text-align: center;
 
+  a{
+    padding-bottom: $s 0 $m 0;
+    border-bottom: 3px solid transparent;
+  }
+
+  a:hover, a.is-active{
+    background-color: $snow;
+    color: $antracite;
+    border-bottom: 3px solid $tinto;
+  }
+
+}
+
+//language selector
+#block-languagedropdownswitcher{
+  padding: $s;
+
+  select{
+    background-color: transparent;
+    color: $snow;
+    border: none;
+    text-transform: lowercase;
+    //try to hide default arrows
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: $nav;
+  }
+
+  //try to hide default arrows
+  select::-ms-expand {
+    display: none;
+  }
+
+  //no blue border
+  select:focus{
+    outline: 0;
+  }
+}
 

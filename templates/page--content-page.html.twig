@@ -38,18 +38,23 @@
  * @see html.html.twig
  */
 #}
+
+{{ attach_library('eltema/landing') }}
+
 <div class="layout-container">
 
     {# content page with landing image #}
 
     <header role="banner">
-        {{ page.header }}
+        <div class="header-login">
+            {{ page.header }}
+        </div>
         <div class="header-nav">
             {{ page.nav }}
         </div>
     </header>
 
-    <div style="background-image: url('{{ file_url(node.field_content_image.0.entity.uri.value) }}');background-size:cover; background-attachment: fixed;">
+    <div class="landing" style="background-image: url('{{ file_url(node.field_content_image.0.entity.uri.value) }}');background-size:cover; background-attachment: fixed;">
         <div class="landing-div">
             {{ page.landing }}
         </div>
@@ -58,11 +63,11 @@
     <main role="main" class="main-contentpage-image">
         <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-        <div class="layout-content">
+        <div class="main-content">
             {{ page.content }}
         </div>{# /.layout-content #}
 
-        <div class="layout-block">
+        <div class="main-block">
             {{ page.blocks }}
         </div>
     </main>
