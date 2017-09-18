@@ -86,11 +86,27 @@ ul{
   }
 }
 
+//smaller red button
+.button_small_red{
+  color: $snow;
+  background-color: $tinto;
+  padding: $xs $s;
+  border-radius: 25px;
+  border: none;
+}
+
+.button_small_red:hover{
+  background-color: $tintohover;
+}
+
 //red link
 .node-readmore, .field--name-field-content-block-link{
   text-align: center;
   a{
     font-weight: 500;
     color: $tinto;
+  }
+  a:hover{
+    color: $tintohover;
   }
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
 h1 {
   padding: 0;
   margin: 0; }
@@ -23,7 +24,7 @@ h2 {
   margin: 0;
   text-align: center; }
 
-.subtitle {
+.subtitle, .view-taxonomy-term .field--name-field-bebidas-title, .view-taxonomy-term .field--name-field-bebidas-productor a {
   font-family: "Crimson Text", serif;
   font-size: 1.5rem;
   color: #969696;
@@ -46,7 +47,7 @@ ul {
   margin: 0;
   padding: 0; }
 
-.block_default {
+.block_default, .view-taxonomy-term {
   padding: 75px 25px;
   max-width: 1200px;
   margin: 0 auto; }
@@ -79,4 +80,18 @@ ul {
   .node-readmore a:hover, .field--name-field-content-block-link a:hover {
     color: #66146A; }
 
-/*# sourceMappingURL=elements.css.map */
+.view-taxonomy-term .views-row {
+  text-align: center;
+  margin-bottom: 25px; }
+.view-taxonomy-term .field--name-field-bebidas-title {
+  color: #293133 !important; }
+.view-taxonomy-term .field--name-field-bebidas-productor-logo {
+  text-align: center;
+  margin-bottom: 25px; }
+  .view-taxonomy-term .field--name-field-bebidas-productor-logo img {
+    max-width: 250px;
+    height: auto; }
+.view-taxonomy-term .field--name-field-bebidas-productor-descript {
+  margin-bottom: 25px; }
+
+/*# sourceMappingURL=taxonomy.css.map */

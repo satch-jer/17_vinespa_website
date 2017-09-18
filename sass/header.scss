@@ -77,6 +77,7 @@ nav{
 //language selector
 #block-languagedropdownswitcher{
   padding: $s;
+  display: inline-block;
 
   select{
     background-color: transparent;
@@ -101,3 +102,13 @@ nav{
   }
 }
 
+#block-webshop-2{
+  padding: $s;
+  display: inline-block;
+
+  a{
+    color: $snow;
+    font-size: $nav;
+    text-transform: lowercase;
+  }
+}

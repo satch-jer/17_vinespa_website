@@ -62,11 +62,23 @@ ul {
   .field--name-field-content-link a:hover, .field--name-field-content-image-block-button a:hover {
     background-color: #66146A; }
 
+.button_small_red {
+  color: #ffffff;
+  background-color: #811F58;
+  padding: 5px 15px;
+  border-radius: 25px;
+  border: none; }
+
+.button_small_red:hover {
+  background-color: #66146A; }
+
 .node-readmore, .field--name-field-content-block-link {
   text-align: center; }
   .node-readmore a, .field--name-field-content-block-link a {
     font-weight: 500;
     color: #811F58; }
+  .node-readmore a:hover, .field--name-field-content-block-link a:hover {
+    color: #66146A; }
 
 #block-vinos, #block-alimentacion {
   background-color: #f0f0f0; }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
 h1 {
   padding: 0;
   margin: 0; }
@@ -79,4 +80,13 @@ ul {
   .node-readmore a:hover, .field--name-field-content-block-link a:hover {
     color: #66146A; }
 
-/*# sourceMappingURL=elements.css.map */
+#block-mapblock {
+  max-width: 1200px;
+  margin: 0 auto 75px auto;
+  text-align: center; }
+  #block-mapblock img {
+    width: 90%;
+    max-width: 560px;
+    height: auto; }
+
+/*# sourceMappingURL=map.css.map */

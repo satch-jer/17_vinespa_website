@@ -7,13 +7,17 @@ global-styling:
       css/header.css: {}
       css/landing.css: {}
       css/content.css: {}
+      css/grid.css: {}
+      css/map.css: {}
       css/contact.css: {}
+      css/popup.css: {}
+      css/taxonomy.css: {}
       css/image_grid.css: {}
       css/categories.css: {}
       css/team.css: {}
       css/map.css: {}
       css/tax.css: {}
-      css/bebidas.css: {}
+      css/detail.css: {}
       css/footer.css: {}
   js:
     js/eltema.js: {}
@@ -26,3 +30,8 @@ landing:
   version: 1
   js:
     js/landing.js: {}
+
+popup:
+  version: 1
+  js:
+    js/popup.js: {}

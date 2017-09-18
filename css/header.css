@@ -43,7 +43,8 @@ nav {
     border-bottom: 3px solid #811F58; }
 
 #block-languagedropdownswitcher {
-  padding: 15px; }
+  padding: 15px;
+  display: inline-block; }
   #block-languagedropdownswitcher select {
     background-color: transparent;
     color: #ffffff;
@@ -57,5 +58,13 @@ nav {
     display: none; }
   #block-languagedropdownswitcher select:focus {
     outline: 0; }
+
+#block-webshop-2 {
+  padding: 15px;
+  display: inline-block; }
+  #block-webshop-2 a {
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-transform: lowercase; }
 
 /*# sourceMappingURL=header.css.map */

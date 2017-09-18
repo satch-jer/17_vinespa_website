@@ -1,0 +1,83 @@
+@import "assets", "elements";
+
+// bebidas and alimentacion page
+.node--type-bebidas-page, .node--type-alimentacion-page {
+
+  //no columns on mobile
+  .group-left, .group-right {
+    display: block;
+    width: 100%;
+    margin-top: $m;
+  }
+
+  //bottle image
+  .field--name-field-bebidas-foto {
+    text-align: center;
+
+    //same width as other images
+    img {
+      width: $xxl;
+      height: auto;
+    }
+  }
+
+  //alimentacion image
+  .field--name-field-alimentacion-foto {
+    text-align: center;
+
+    //same width as other images
+    img {
+      width: $xl;
+      height: auto;
+    }
+
+  }
+
+  //fiche
+  .field {
+
+    .field__label {
+      display: inline-block;
+      width: 125px;
+      font-size: $text;
+    }
+
+    .field__items {
+      display: inline-block;
+    }
+
+    .field__item {
+      display: inline-block;
+      font-size: $text;
+      a {
+        text-transform: capitalize !important;
+        font-size: $text !important;
+        border-bottom: 1px dotted $antracite;
+      }
+      a:hover {
+        border-bottom: 1px solid $antracite;
+      }
+    }
+  }
+}
+
+//back button
+#block-backtoportfoliobutton{
+  .field--name-field-block-block-link{
+    margin-bottom: $l;
+    text-align: center;
+    a{
+      @extend .button_small_red;
+    }
+  }
+}
+
+#block-backtoalimentacionbutton{
+  .field--name-field-block-link{
+    margin-bottom: $l;
+    text-align: center;
+    a{
+      @extend .button_small_red;
+    }
+  }
+}

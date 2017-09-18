@@ -2,7 +2,7 @@
 
 //general content
 
-#block-views-block-sobre-block-block-1, #block-nuestrosproductos{
+#block-views-block-sobre-block-block-1, #block-nuestrosproductos, #block-mainpagecontent{
   @extend .block_default;
 }
 
@@ -26,7 +26,8 @@
 }
 
 //product grid
-.view-filter-articles{
+//<front> + portfolio + alimentacion
+.view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full{
   .view-filters{
     text-align: center;
     li{
@@ -64,13 +65,28 @@
           filter: none;
         }
       }
+
+      //photos of alimentacion are a little smaller
+      .views-field-field-alimentacion-foto{
+        img{
+          width: $xl;
+          height: auto;
+          -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+        }
+        img:hover{
+          -webkit-filter: none;
+          filter: none;
+        }
+      }
+
       .views-field-title{
         a{
           @extend .subtitle;
           color: $antracite !important;
         }
       }
-      .views-field-field-bebidas-productor{
+      .views-field-field-bebidas-productor, .views-field-field-alimentacion-marca{
         a{
           @extend .subtitle;
         }

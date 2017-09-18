@@ -1,0 +1,47 @@
+@import "assets", "elements";
+
+//popup for webshop login
+
+//popup
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+//content box
+.modal-content {
+  background-color: $snow;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid $snow;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+//login iframe
+iframe{
+  height: 310px;
+  width: 100%;
+}
+
+/* the close button */
+.close {
+  color: $verycloudy;
+  float: right;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.close:hover,
+.close:focus {
+  color: $cloudy;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+@import "assets", "elements";
+
+.view-taxonomy-term{
+  @extend .block_default;
+
+  .views-row{
+    text-align: center;
+    margin-bottom: $m;
+  }
+
+  .field--name-field-bebidas-title{
+    @extend .subtitle;
+    color: $antracite !important;
+  }
+
+  .field--name-field-bebidas-productor{
+    a{
+      @extend .subtitle;
+    }
+  }
+
+  .field--name-field-bebidas-productor-logo{
+    text-align: center;
+    margin-bottom: $m;
+
+    img{
+      max-width: $xxl;
+      height: auto;
+    }
+  }
+
+  .field--name-field-bebidas-productor-descript{
+    margin-bottom: $m;
+  }
+
+
+}

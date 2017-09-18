@@ -1,0 +1,30 @@
+@import "assets", "elements";
+
+//portfolio + alimentacion
+
+//filter
+#views-exposed-form-filter-articles-full-block-1, #views-exposed-form-filter-alimentacion-full-block-1{
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  //submit button
+  input[type="submit"]{
+    @extend .button_small_red;
+    margin-top: $s;
+  }
+
+  .js-form-item{
+    display: inline-block;
+    width: 100px;
+
+    label{
+      font-size: $text;
+      font-weight: 700;
+    }
+  }
+}
+
+//image grid
+// => styling see content.css
+// => used styling from other grid

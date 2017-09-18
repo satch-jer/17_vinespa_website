@@ -1,0 +1,15 @@
+@import "assets", "elements";
+
+//regions page
+
+#block-mapblock{
+  max-width: 1200px;
+  margin: 0 auto $l auto;
+  text-align: center;
+
+  img{
+    width: 90%;
+    max-width: 560px;
+    height: auto;
+  }
+}

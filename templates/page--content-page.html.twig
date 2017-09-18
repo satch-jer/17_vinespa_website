@@ -40,6 +40,7 @@
 #}
 
 {{ attach_library('eltema/landing') }}
+{{ attach_library('eltema/popup') }}
 
 <div class="layout-container">
 
@@ -77,5 +78,16 @@
             {{ page.footer }}
         </footer>
     {% endif %}
+
+    <!-- popup -->
+    <div id="myModal" class="modal">
+        <!-- popup content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="connect">
+                <iframe src="http://rd.vinespa.be/webshop/login.aspx" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
 
 </div>{# /.layout-container #}
