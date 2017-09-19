@@ -35,3 +35,24 @@
 .messages--error, .messages--status{
   margin-bottom: $m !important;
 }
+
+// === css breakpoints ===
+@media only screen and (min-width : 600px) {
+  .webform-submission-contact-node-12-form{
+    .js-form-item{
+      input, textarea{
+        width: 450px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width : 900px) {
+  .webform-submission-contact-node-12-form{
+    .js-form-item{
+      input, textarea{
+        width: 650px;
+      }
+    }
+  }
+}

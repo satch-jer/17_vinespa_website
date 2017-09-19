@@ -110,3 +110,13 @@ ul{
     color: $tintohover;
   }
 }
+
+//remove blue select border
+select{
+  border: 1px solid $verycloudy;
+  outline: none;
+}
+
+select:focus{
+  border: 1px solid $tinto;
+}

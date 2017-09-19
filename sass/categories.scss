@@ -28,3 +28,21 @@
     @extend .subtitle;
   }
 }
+
+
+// === css breakpoints ===
+@media only screen and (min-width : 600px) {
+
+
+}
+
+@media only screen and (min-width : 900px) {
+
+  //show blocks next to eachother
+  #block-vinos, #block-licores, #block-alimentacion{
+    display: inline-block;
+    width: 32.9%;
+    padding-top: $xl;
+    padding-bottom: $xl;
+  }
+}

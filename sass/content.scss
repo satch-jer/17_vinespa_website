@@ -1,5 +1,14 @@
 @import "assets", "elements";
 
+//page title for taxonomy pages
+.region-content{
+  .page-title{
+    @extend .title;
+    margin-top: 75px;
+    text-align: center;
+  }
+}
+
 //general content
 
 #block-views-block-sobre-block-block-1, #block-nuestrosproductos, #block-mainpagecontent{
@@ -94,4 +103,28 @@
     }
 
   }
+}
+
+// === css breakpoints ===
+@media only screen and (min-width : 600px) {
+  .view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full {
+    .view-content{
+      text-align: left;
+    }
+
+    .views-row{
+      display: inline-block;
+      width: 49%;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (min-width : 900px) {
+  .view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full {
+    .views-row{
+      width: 32%;
+    }
+  }
+
 }

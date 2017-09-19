@@ -16,7 +16,12 @@
 
   .js-form-item{
     display: inline-block;
-    width: 100px;
+    width: 125px;
+
+    label, select{
+      display: inline-block;
+      width: 125px;
+    }
 
     label{
       font-size: $text;

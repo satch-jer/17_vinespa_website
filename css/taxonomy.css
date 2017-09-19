@@ -24,7 +24,7 @@ h2 {
   margin: 0;
   text-align: center; }
 
-.subtitle, .view-taxonomy-term .field--name-field-bebidas-title, .view-taxonomy-term .field--name-field-bebidas-productor a {
+.subtitle, .view-taxonomy-term .field--name-field-bebidas-title, .view-taxonomy-term .field--name-field-alimentacion-title, .view-taxonomy-term .field--name-field-bebidas-productor a, .view-taxonomy-term .field--name-field-alimentacion-marca a {
   font-family: "Crimson Text", serif;
   font-size: 1.5rem;
   color: #969696;
@@ -80,10 +80,17 @@ ul {
   .node-readmore a:hover, .field--name-field-content-block-link a:hover {
     color: #66146A; }
 
+select {
+  border: 1px solid #969696;
+  outline: none; }
+
+select:focus {
+  border: 1px solid #811F58; }
+
 .view-taxonomy-term .views-row {
   text-align: center;
   margin-bottom: 25px; }
-.view-taxonomy-term .field--name-field-bebidas-title {
+.view-taxonomy-term .field--name-field-bebidas-title, .view-taxonomy-term .field--name-field-alimentacion-title {
   color: #293133 !important; }
 .view-taxonomy-term .field--name-field-bebidas-productor-logo {
   text-align: center;

@@ -79,4 +79,11 @@ ul {
   .node-readmore a:hover, .field--name-field-content-block-link a:hover {
     color: #66146A; }
 
+select {
+  border: 1px solid #969696;
+  outline: none; }
+
+select:focus {
+  border: 1px solid #811F58; }
+
 /*# sourceMappingURL=elements.css.map */

@@ -8,12 +8,12 @@
     margin-bottom: $m;
   }
 
-  .field--name-field-bebidas-title{
+  .field--name-field-bebidas-title, .field--name-field-alimentacion-title{
     @extend .subtitle;
     color: $antracite !important;
   }
 
-  .field--name-field-bebidas-productor{
+  .field--name-field-bebidas-productor, .field--name-field-alimentacion-marca{
     a{
       @extend .subtitle;
     }

@@ -1,21 +1,39 @@
 @import "assets";
 
 footer{
-  background-color: $antracite;
+
 }
 
 .region-footer{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: $xl $m;
+
 }
 
 #block-vinespanv{
+  background-color: $antracite;
+  padding: 175px $m;
+
   h2, p{
+    max-width: 1200px;
+    margin: 0 auto;
     color: $snow;
     font-size: $nav !important;
     font-weight: 400 !important;
     text-align: right;
     text-transform: lowercase;
+  }
+}
+
+#block-satch{
+  text-align: center;
+  font-size: $nav !important;
+  text-transform: lowercase;
+  padding-top: $s;
+  padding-bottom: $s;
+
+  a{
+    border-bottom: 1px dotted $antracite;
+  }
+  a:hover {
+    border-bottom: 1px solid $antracite;
   }
 }

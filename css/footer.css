@@ -1,17 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
-footer {
-  background-color: #293133; }
+#block-vinespanv {
+  background-color: #293133;
+  padding: 175px 25px; }
+  #block-vinespanv h2, #block-vinespanv p {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 1.3rem !important;
+    font-weight: 400 !important;
+    text-align: right;
+    text-transform: lowercase; }
 
-.region-footer {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px 25px; }
-
-#block-vinespanv h2, #block-vinespanv p {
-  color: #ffffff;
+#block-satch {
+  text-align: center;
   font-size: 1.3rem !important;
-  font-weight: 400 !important;
-  text-align: right;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  #block-satch a {
+    border-bottom: 1px dotted #293133; }
+  #block-satch a:hover {
+    border-bottom: 1px solid #293133; }
 
 /*# sourceMappingURL=footer.css.map */

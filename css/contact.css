@@ -80,6 +80,13 @@ ul {
   .node-readmore a:hover, .field--name-field-content-block-link a:hover {
     color: #66146A; }
 
+select {
+  border: 1px solid #969696;
+  outline: none; }
+
+select:focus {
+  border: 1px solid #811F58; }
+
 .webform-submission-contact-node-12-form {
   max-width: 1200px;
   margin: 0 auto 75px auto;
@@ -100,5 +107,12 @@ ul {
 
 .messages--error, .messages--status {
   margin-bottom: 25px !important; }
+
+@media only screen and (min-width: 600px) {
+  .webform-submission-contact-node-12-form .js-form-item input, .webform-submission-contact-node-12-form .js-form-item textarea {
+    width: 450px; } }
+@media only screen and (min-width: 900px) {
+  .webform-submission-contact-node-12-form .js-form-item input, .webform-submission-contact-node-12-form .js-form-item textarea {
+    width: 650px; } }
 
 /*# sourceMappingURL=contact.css.map */

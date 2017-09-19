@@ -12,11 +12,7 @@ global-styling:
       css/contact.css: {}
       css/popup.css: {}
       css/taxonomy.css: {}
-      css/image_grid.css: {}
       css/categories.css: {}
-      css/team.css: {}
-      css/map.css: {}
-      css/tax.css: {}
       css/detail.css: {}
       css/footer.css: {}
   js:
