@@ -52,14 +52,14 @@ ul {
   max-width: 1200px;
   margin: 0 auto; }
 
-.field--name-field-content-link, .field--name-field-content-image-block-button {
+.field--name-field-content-link, .field--name-field-content-image-block-button, .button_red {
   margin-top: 25px; }
-  .field--name-field-content-link a, .field--name-field-content-image-block-button a {
+  .field--name-field-content-link a, .field--name-field-content-image-block-button a, .button_red a {
     color: #ffffff;
     background-color: #811F58;
     padding: 15px;
     border-radius: 25px; }
-  .field--name-field-content-link a:hover, .field--name-field-content-image-block-button a:hover {
+  .field--name-field-content-link a:hover, .field--name-field-content-image-block-button a:hover, .button_red a:hover {
     background-color: #66146A; }
 
 .button_small_red, #views-exposed-form-filter-articles-full-block-1 input[type="submit"], #views-exposed-form-filter-alimentacion-full-block-1 input[type="submit"] {

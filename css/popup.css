@@ -52,14 +52,14 @@ ul {
   max-width: 1200px;
   margin: 0 auto; }
 
-.field--name-field-content-link, .field--name-field-content-image-block-button {
+.field--name-field-content-link, .field--name-field-content-image-block-button, .button_red {
   margin-top: 25px; }
-  .field--name-field-content-link a, .field--name-field-content-image-block-button a {
+  .field--name-field-content-link a, .field--name-field-content-image-block-button a, .button_red a {
     color: #ffffff;
     background-color: #811F58;
     padding: 15px;
     border-radius: 25px; }
-  .field--name-field-content-link a:hover, .field--name-field-content-image-block-button a:hover {
+  .field--name-field-content-link a:hover, .field--name-field-content-image-block-button a:hover, .button_red a:hover {
     background-color: #66146A; }
 
 .button_small_red {
@@ -109,7 +109,8 @@ select:focus {
   padding: 20px;
   border: 1px solid #ffffff;
   width: 80%;
-  /* Could be more or less, depending on screen size */ }
+  /* Could be more or less, depending on screen size */
+  max-width: 250px; }
 
 iframe {
   height: 310px;

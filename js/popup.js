@@ -8,7 +8,7 @@
                 var modal = $('#myModal');
 
                 // get the button that opens the modal
-                var btn = $('.field--name-field-block-link > a');
+                var btn = $('#block-webshop-2 > .field--name-field-block-link > a');
 
                 // get the <span> element that closes the modal
                 var span = $(".close")[0];

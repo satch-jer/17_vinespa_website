@@ -11,5 +11,7 @@
     width: 90%;
     max-width: 560px;
     height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
 }

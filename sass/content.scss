@@ -105,9 +105,16 @@
   }
 }
 
+// show more button (frontpage gridview)
+#block-showmore{
+  @extend .button_red;
+  text-align: center;
+  margin-bottom: $xl;
+}
+
 // === css breakpoints ===
 @media only screen and (min-width : 600px) {
-  .view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full {
+  .view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full, .view-taxonomy-term {
     .view-content{
       text-align: left;
     }
