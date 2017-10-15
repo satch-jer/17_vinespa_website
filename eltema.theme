@@ -28,3 +28,7 @@ function eltema_preprocess_links(&$variables) {
       $variables['links']['node-readmore']['link']['#title'] = t('read more ...');
     }
 }
+
+function eltema_preprocess(&$variables, $hook){
+    $variables['base_path'] = base_path();
+}

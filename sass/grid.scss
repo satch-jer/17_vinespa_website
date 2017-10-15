@@ -3,7 +3,7 @@
 //portfolio + alimentacion
 
 //filter
-#views-exposed-form-filter-articles-full-block-1, #views-exposed-form-filter-alimentacion-full-block-1{
+#views-exposed-form-filter-articles-full-block-1, #views-exposed-form-filter-alimentacion-full-block-1, #block-views-block-empleado-block-1{
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
@@ -33,3 +33,18 @@
 //image grid
 // => styling see content.css
 // => used styling from other grid
+
+.views-field-field-empleado-name{
+  @extend .subtitle;
+  color: $antracite !important;
+  p{
+    margin: 0;
+  }
+}
+.views-field-field-empleado-function{
+  @extend .subtitle;
+  p{
+    margin-top: 0;
+    margin-bottom: $s;
+  }
+}

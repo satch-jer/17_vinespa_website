@@ -24,7 +24,7 @@ h2 {
   margin: 0;
   text-align: center; }
 
-.subtitle, .field--name-field-content-subtitle, .field--name-field-content-block-subtitle, .view-filter-articles .view-content .views-row .views-field-title a, .view-filter-articles-full .view-content .views-row .views-field-title a, .view-filter-alimentacion-full .view-content .views-row .views-field-title a, .view-filter-articles .view-content .views-row .views-field-field-bebidas-productor a, .view-filter-articles .view-content .views-row .views-field-field-alimentacion-marca a, .view-filter-articles-full .view-content .views-row .views-field-field-bebidas-productor a, .view-filter-articles-full .view-content .views-row .views-field-field-alimentacion-marca a, .view-filter-alimentacion-full .view-content .views-row .views-field-field-bebidas-productor a, .view-filter-alimentacion-full .view-content .views-row .views-field-field-alimentacion-marca a {
+.subtitle, .field--name-field-content-subtitle, .field--name-field-content-block-subtitle, .view-filter-articles .view-content .views-row .views-field-title a, .view-filter-articles-full .view-content .views-row .views-field-title a, .view-filter-alimentacion-full .view-content .views-row .views-field-title a, .view-empleado .view-content .views-row .views-field-title a, .view-filter-articles .view-content .views-row .views-field-field-bebidas-productor a, .view-filter-articles .view-content .views-row .views-field-field-alimentacion-marca a, .view-filter-articles-full .view-content .views-row .views-field-field-bebidas-productor a, .view-filter-articles-full .view-content .views-row .views-field-field-alimentacion-marca a, .view-filter-alimentacion-full .view-content .views-row .views-field-field-bebidas-productor a, .view-filter-alimentacion-full .view-content .views-row .views-field-field-alimentacion-marca a, .view-empleado .view-content .views-row .views-field-field-bebidas-productor a, .view-empleado .view-content .views-row .views-field-field-alimentacion-marca a {
   font-family: "Crimson Text", serif;
   font-size: 1.5rem;
   color: #969696;
@@ -47,7 +47,7 @@ ul {
   margin: 0;
   padding: 0; }
 
-.block_default, #block-views-block-sobre-block-block-1, #block-nuestrosproductos, #block-mainpagecontent, .view-filter-articles .view-content, .view-filter-articles-full .view-content, .view-filter-alimentacion-full .view-content {
+.block_default, #block-views-block-sobre-block-block-1, #block-nuestrosproductos, #block-mainpagecontent, .view-filter-articles .view-content, .view-filter-articles-full .view-content, .view-filter-alimentacion-full .view-content, .view-empleado .view-content {
   padding: 75px 25px;
   max-width: 1200px;
   margin: 0 auto; }
@@ -102,55 +102,63 @@ select:focus {
   #block-team .field--name-field-content-image-block-title {
     margin-top: 250px; }
 
-.view-filter-articles .view-filters, .view-filter-articles-full .view-filters, .view-filter-alimentacion-full .view-filters {
+.view-filter-articles .view-filters, .view-filter-articles-full .view-filters, .view-filter-alimentacion-full .view-filters, .view-empleado .view-filters {
   text-align: center; }
-  .view-filter-articles .view-filters li, .view-filter-articles-full .view-filters li, .view-filter-alimentacion-full .view-filters li {
+  .view-filter-articles .view-filters li, .view-filter-articles-full .view-filters li, .view-filter-alimentacion-full .view-filters li, .view-empleado .view-filters li {
     display: inline-block; }
-  .view-filter-articles .view-filters a, .view-filter-articles-full .view-filters a, .view-filter-alimentacion-full .view-filters a {
+  .view-filter-articles .view-filters a, .view-filter-articles-full .view-filters a, .view-filter-alimentacion-full .view-filters a, .view-empleado .view-filters a {
     font-weight: 500;
     padding: 15px;
     text-transform: lowercase;
     font-size: 1.5rem; }
-  .view-filter-articles .view-filters a:hover, .view-filter-articles-full .view-filters a:hover, .view-filter-alimentacion-full .view-filters a:hover {
+  .view-filter-articles .view-filters a:hover, .view-filter-articles-full .view-filters a:hover, .view-filter-alimentacion-full .view-filters a:hover, .view-empleado .view-filters a:hover {
     color: #969696; }
-  .view-filter-articles .view-filters a.active, .view-filter-articles-full .view-filters a.active, .view-filter-alimentacion-full .view-filters a.active {
+  .view-filter-articles .view-filters a.active, .view-filter-articles-full .view-filters a.active, .view-filter-alimentacion-full .view-filters a.active, .view-empleado .view-filters a.active {
     color: #969696; }
-.view-filter-articles .view-content, .view-filter-articles-full .view-content, .view-filter-alimentacion-full .view-content {
+.view-filter-articles .view-content, .view-filter-articles-full .view-content, .view-filter-alimentacion-full .view-content, .view-empleado .view-content {
   text-align: center; }
-  .view-filter-articles .view-content .views-row, .view-filter-articles-full .view-content .views-row, .view-filter-alimentacion-full .view-content .views-row {
+  .view-filter-articles .view-content .views-row, .view-filter-articles-full .view-content .views-row, .view-filter-alimentacion-full .view-content .views-row, .view-empleado .view-content .views-row {
     margin-bottom: 25px; }
-    .view-filter-articles .view-content .views-row .views-field-field-bebidas-foto img, .view-filter-articles-full .view-content .views-row .views-field-field-bebidas-foto img, .view-filter-alimentacion-full .view-content .views-row .views-field-field-bebidas-foto img {
-      width: 250px;
-      height: auto;
+    .view-filter-articles .view-content .views-row .views-field-field-bebidas-foto img, .view-filter-articles-full .view-content .views-row .views-field-field-bebidas-foto img, .view-filter-alimentacion-full .view-content .views-row .views-field-field-bebidas-foto img, .view-empleado .view-content .views-row .views-field-field-bebidas-foto img {
+      width: auto;
+      max-height: 300px;
       -webkit-filter: grayscale(100%);
       filter: grayscale(100%); }
-    .view-filter-articles .view-content .views-row .views-field-field-bebidas-foto img:hover, .view-filter-articles-full .view-content .views-row .views-field-field-bebidas-foto img:hover, .view-filter-alimentacion-full .view-content .views-row .views-field-field-bebidas-foto img:hover {
+    .view-filter-articles .view-content .views-row .views-field-field-bebidas-foto img:hover, .view-filter-articles-full .view-content .views-row .views-field-field-bebidas-foto img:hover, .view-filter-alimentacion-full .view-content .views-row .views-field-field-bebidas-foto img:hover, .view-empleado .view-content .views-row .views-field-field-bebidas-foto img:hover {
       -webkit-filter: none;
       filter: none; }
-    .view-filter-articles .view-content .views-row .views-field-field-alimentacion-foto img, .view-filter-articles-full .view-content .views-row .views-field-field-alimentacion-foto img, .view-filter-alimentacion-full .view-content .views-row .views-field-field-alimentacion-foto img {
+    .view-filter-articles .view-content .views-row .views-field-field-empleado-photo img, .view-filter-articles-full .view-content .views-row .views-field-field-empleado-photo img, .view-filter-alimentacion-full .view-content .views-row .views-field-field-empleado-photo img, .view-empleado .view-content .views-row .views-field-field-empleado-photo img {
+      width: 300px;
+      height: 300px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
+    .view-filter-articles .view-content .views-row .views-field-field-empleado-photo img:hover, .view-filter-articles-full .view-content .views-row .views-field-field-empleado-photo img:hover, .view-filter-alimentacion-full .view-content .views-row .views-field-field-empleado-photo img:hover, .view-empleado .view-content .views-row .views-field-field-empleado-photo img:hover {
+      -webkit-filter: none;
+      filter: none; }
+    .view-filter-articles .view-content .views-row .views-field-field-alimentacion-foto img, .view-filter-articles-full .view-content .views-row .views-field-field-alimentacion-foto img, .view-filter-alimentacion-full .view-content .views-row .views-field-field-alimentacion-foto img, .view-empleado .view-content .views-row .views-field-field-alimentacion-foto img {
       width: 100px;
       height: auto;
       -webkit-filter: grayscale(100%);
       filter: grayscale(100%); }
-    .view-filter-articles .view-content .views-row .views-field-field-alimentacion-foto img:hover, .view-filter-articles-full .view-content .views-row .views-field-field-alimentacion-foto img:hover, .view-filter-alimentacion-full .view-content .views-row .views-field-field-alimentacion-foto img:hover {
+    .view-filter-articles .view-content .views-row .views-field-field-alimentacion-foto img:hover, .view-filter-articles-full .view-content .views-row .views-field-field-alimentacion-foto img:hover, .view-filter-alimentacion-full .view-content .views-row .views-field-field-alimentacion-foto img:hover, .view-empleado .view-content .views-row .views-field-field-alimentacion-foto img:hover {
       -webkit-filter: none;
       filter: none; }
-    .view-filter-articles .view-content .views-row .views-field-title a, .view-filter-articles-full .view-content .views-row .views-field-title a, .view-filter-alimentacion-full .view-content .views-row .views-field-title a {
+    .view-filter-articles .view-content .views-row .views-field-title a, .view-filter-articles-full .view-content .views-row .views-field-title a, .view-filter-alimentacion-full .view-content .views-row .views-field-title a, .view-empleado .view-content .views-row .views-field-title a {
       color: #293133 !important; }
 
 #block-showmore {
   text-align: center;
   margin-bottom: 100px; }
 
-@media only screen and (min-width: 600px) {
-  .view-filter-articles .view-content, .view-filter-articles-full .view-content, .view-filter-alimentacion-full .view-content, .view-taxonomy-term .view-content {
+@media only screen and (min-width: 700px) {
+  .view-filter-articles .view-content, .view-filter-articles-full .view-content, .view-filter-alimentacion-full .view-content, .view-taxonomy-term .view-content, .view-empleado .view-content {
     text-align: left; }
-  .view-filter-articles .views-row, .view-filter-articles-full .views-row, .view-filter-alimentacion-full .views-row, .view-taxonomy-term .views-row {
+  .view-filter-articles .views-row, .view-filter-articles-full .views-row, .view-filter-alimentacion-full .views-row, .view-taxonomy-term .views-row, .view-empleado .views-row {
     display: inline-block;
     width: 49%;
     text-align: center; } }
-@media only screen and (min-width: 900px) {
-  .view-filter-articles .views-row, .view-filter-articles-full .views-row, .view-filter-alimentacion-full .views-row {
+@media only screen and (min-width: 1000px) {
+  .view-filter-articles .views-row, .view-filter-articles-full .views-row, .view-filter-alimentacion-full .views-row, .view-empleado .views-row {
     width: 32%; } }
 
 /*# sourceMappingURL=content.css.map */

@@ -94,13 +94,13 @@ select:focus {
 .node--type-bebidas-page .field--name-field-bebidas-foto, .node--type-alimentacion-page .field--name-field-bebidas-foto {
   text-align: center; }
   .node--type-bebidas-page .field--name-field-bebidas-foto img, .node--type-alimentacion-page .field--name-field-bebidas-foto img {
-    width: 250px;
-    height: auto; }
+    width: auto;
+    max-height: 300px; }
 .node--type-bebidas-page .field--name-field-alimentacion-foto, .node--type-alimentacion-page .field--name-field-alimentacion-foto {
   text-align: center; }
   .node--type-bebidas-page .field--name-field-alimentacion-foto img, .node--type-alimentacion-page .field--name-field-alimentacion-foto img {
-    width: 100px;
-    height: auto; }
+    width: auto;
+    max-height: 300px; }
 .node--type-bebidas-page .field .field__label, .node--type-alimentacion-page .field .field__label {
   display: inline-block;
   width: 125px;
@@ -124,5 +124,11 @@ select:focus {
 #block-backtoalimentacionbutton .field--name-field-block-link {
   margin-bottom: 75px;
   text-align: center; }
+
+@media only screen and (min-width: 900px) {
+  .node--type-bebidas-page .group-left, .node--type-bebidas-page .group-right, .node--type-alimentacion-page .group-left, .node--type-alimentacion-page .group-right {
+    display: inline-block;
+    width: 50%;
+    margin-top: 25px; } }
 
 /*# sourceMappingURL=detail.css.map */

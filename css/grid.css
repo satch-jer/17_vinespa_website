@@ -24,7 +24,7 @@ h2 {
   margin: 0;
   text-align: center; }
 
-.subtitle {
+.subtitle, .views-field-field-empleado-name, .views-field-field-empleado-function {
   font-family: "Crimson Text", serif;
   font-size: 1.5rem;
   color: #969696;
@@ -62,14 +62,14 @@ ul {
   .field--name-field-content-link a:hover, .field--name-field-content-image-block-button a:hover, .button_red a:hover {
     background-color: #66146A; }
 
-.button_small_red, #views-exposed-form-filter-articles-full-block-1 input[type="submit"], #views-exposed-form-filter-alimentacion-full-block-1 input[type="submit"] {
+.button_small_red, #views-exposed-form-filter-articles-full-block-1 input[type="submit"], #views-exposed-form-filter-alimentacion-full-block-1 input[type="submit"], #block-views-block-empleado-block-1 input[type="submit"] {
   color: #ffffff;
   background-color: #811F58;
   padding: 5px 15px;
   border-radius: 25px;
   border: none; }
 
-.button_small_red:hover, #views-exposed-form-filter-articles-full-block-1 input[type="submit"]:hover, #views-exposed-form-filter-alimentacion-full-block-1 input[type="submit"]:hover {
+.button_small_red:hover, #views-exposed-form-filter-articles-full-block-1 input[type="submit"]:hover, #views-exposed-form-filter-alimentacion-full-block-1 input[type="submit"]:hover, #block-views-block-empleado-block-1 input[type="submit"]:hover {
   background-color: #66146A; }
 
 .node-readmore, .field--name-field-content-block-link {
@@ -87,20 +87,29 @@ select {
 select:focus {
   border: 1px solid #811F58; }
 
-#views-exposed-form-filter-articles-full-block-1, #views-exposed-form-filter-alimentacion-full-block-1 {
+#views-exposed-form-filter-articles-full-block-1, #views-exposed-form-filter-alimentacion-full-block-1, #block-views-block-empleado-block-1 {
   text-align: center;
   max-width: 1200px;
   margin: 0 auto; }
-  #views-exposed-form-filter-articles-full-block-1 input[type="submit"], #views-exposed-form-filter-alimentacion-full-block-1 input[type="submit"] {
+  #views-exposed-form-filter-articles-full-block-1 input[type="submit"], #views-exposed-form-filter-alimentacion-full-block-1 input[type="submit"], #block-views-block-empleado-block-1 input[type="submit"] {
     margin-top: 15px; }
-  #views-exposed-form-filter-articles-full-block-1 .js-form-item, #views-exposed-form-filter-alimentacion-full-block-1 .js-form-item {
+  #views-exposed-form-filter-articles-full-block-1 .js-form-item, #views-exposed-form-filter-alimentacion-full-block-1 .js-form-item, #block-views-block-empleado-block-1 .js-form-item {
     display: inline-block;
     width: 125px; }
-    #views-exposed-form-filter-articles-full-block-1 .js-form-item label, #views-exposed-form-filter-articles-full-block-1 .js-form-item select, #views-exposed-form-filter-alimentacion-full-block-1 .js-form-item label, #views-exposed-form-filter-alimentacion-full-block-1 .js-form-item select {
+    #views-exposed-form-filter-articles-full-block-1 .js-form-item label, #views-exposed-form-filter-articles-full-block-1 .js-form-item select, #views-exposed-form-filter-alimentacion-full-block-1 .js-form-item label, #views-exposed-form-filter-alimentacion-full-block-1 .js-form-item select, #block-views-block-empleado-block-1 .js-form-item label, #block-views-block-empleado-block-1 .js-form-item select {
       display: inline-block;
       width: 125px; }
-    #views-exposed-form-filter-articles-full-block-1 .js-form-item label, #views-exposed-form-filter-alimentacion-full-block-1 .js-form-item label {
+    #views-exposed-form-filter-articles-full-block-1 .js-form-item label, #views-exposed-form-filter-alimentacion-full-block-1 .js-form-item label, #block-views-block-empleado-block-1 .js-form-item label {
       font-size: 1.5rem;
       font-weight: 700; }
+
+.views-field-field-empleado-name {
+  color: #293133 !important; }
+  .views-field-field-empleado-name p {
+    margin: 0; }
+
+.views-field-field-empleado-function p {
+  margin-top: 0;
+  margin-bottom: 15px; }
 
 /*# sourceMappingURL=grid.css.map */

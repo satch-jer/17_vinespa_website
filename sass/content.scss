@@ -36,7 +36,7 @@
 
 //product grid
 //<front> + portfolio + alimentacion
-.view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full{
+.view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full, .view-empleado{
   .view-filters{
     text-align: center;
     li{
@@ -64,8 +64,21 @@
       margin-bottom: $m;
       .views-field-field-bebidas-foto{
         img{
-          width: $xxl;
-          height: auto;
+          width: auto;
+          max-height: 300px;
+          -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+        }
+        img:hover{
+          -webkit-filter: none;
+          filter: none;
+        }
+      }
+
+      .views-field-field-empleado-photo{
+        img{
+          width: 300px;
+          height: 300px;
           -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
         }
@@ -113,8 +126,8 @@
 }
 
 // === css breakpoints ===
-@media only screen and (min-width : 600px) {
-  .view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full, .view-taxonomy-term {
+@media only screen and (min-width : 700px) {
+  .view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full, .view-taxonomy-term, .view-empleado {
     .view-content{
       text-align: left;
     }
@@ -127,8 +140,8 @@
   }
 }
 
-@media only screen and (min-width : 900px) {
-  .view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full {
+@media only screen and (min-width : 1000px) {
+  .view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full, .view-empleado {
     .views-row{
       width: 32%;
     }

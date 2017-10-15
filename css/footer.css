@@ -10,6 +10,11 @@
     font-weight: 400 !important;
     text-align: right;
     text-transform: lowercase; }
+  #block-vinespanv a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.3rem !important;
+    font-weight: 400 !important; }
 
 #block-satch {
   text-align: center;

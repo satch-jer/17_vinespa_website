@@ -16,8 +16,8 @@
 
     //same width as other images
     img {
-      width: $xxl;
-      height: auto;
+      width: auto;
+      max-height: 300px;
     }
   }
 
@@ -27,8 +27,8 @@
 
     //same width as other images
     img {
-      width: $xl;
-      height: auto;
+      width: auto;
+      max-height: 300px;
     }
 
   }
@@ -78,6 +78,19 @@
     text-align: center;
     a{
       @extend .button_small_red;
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  // bebidas and alimentacion page
+  .node--type-bebidas-page, .node--type-alimentacion-page {
+
+    //no columns on mobile
+    .group-left, .group-right {
+      display: inline-block;
+      width: 50%;
+      margin-top: $m;
     }
   }
 }
