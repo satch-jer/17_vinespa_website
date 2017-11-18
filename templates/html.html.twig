@@ -34,6 +34,13 @@ db_offline ? 'db-offline',
 <!DOCTYPE html>
 <html{{ html_attributes }}>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109242067-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    </script>
     <head-placeholder token="{{ placeholder_token }}">
         <title>{{ head_title|safe_join(' | ') }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,6 +58,7 @@ db_offline ? 'db-offline',
 {{ page_top }}
 {{ page }}
 {{ page_bottom }}
+
 <js-bottom-placeholder token="{{ placeholder_token }}">
 </body>
 </html>

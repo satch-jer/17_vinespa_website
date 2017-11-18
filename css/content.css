@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700");
 h1 {
   padding: 0;
   margin: 0; }
@@ -16,7 +16,7 @@ h1 {
 .title, h2, h2 a, .region-content .page-title {
   text-transform: uppercase;
   font-size: 1.8rem !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   color: #293133; }
 
 h2 {
@@ -75,10 +75,11 @@ ul {
 .node-readmore, .field--name-field-content-block-link {
   text-align: center; }
   .node-readmore a, .field--name-field-content-block-link a {
-    font-weight: 500;
+    font-weight: 600;
     color: #811F58; }
   .node-readmore a:hover, .field--name-field-content-block-link a:hover {
-    color: #66146A; }
+    color: #66146A;
+    text-decoration: line-through; }
 
 select {
   border: 1px solid #969696;
@@ -94,11 +95,16 @@ select:focus {
 .field--name-field-content-subtitle, .field--name-field-content-block-subtitle {
   text-align: center;
   margin-bottom: 25px; }
+  .field--name-field-content-subtitle p, .field--name-field-content-block-subtitle p {
+    padding-top: 0 !important;
+    margin-top: 0 !important; }
 
 #block-team {
   width: 100%;
   height: 450px;
-  text-align: center; }
+  text-align: center;
+  background-position: center center;
+  background-size: cover; }
   #block-team .field--name-field-content-image-block-title {
     margin-top: 250px; }
 
@@ -107,7 +113,7 @@ select:focus {
   .view-filter-articles .view-filters li, .view-filter-articles-full .view-filters li, .view-filter-alimentacion-full .view-filters li, .view-empleado .view-filters li {
     display: inline-block; }
   .view-filter-articles .view-filters a, .view-filter-articles-full .view-filters a, .view-filter-alimentacion-full .view-filters a, .view-empleado .view-filters a {
-    font-weight: 500;
+    font-weight: 600;
     padding: 15px;
     text-transform: lowercase;
     font-size: 1.5rem; }
@@ -158,7 +164,10 @@ select:focus {
     width: 49%;
     text-align: center; } }
 @media only screen and (min-width: 1000px) {
-  .view-filter-articles .views-row, .view-filter-articles-full .views-row, .view-filter-alimentacion-full .views-row, .view-empleado .views-row {
-    width: 32%; } }
+  .view-filter-articles .views-row, .view-filter-articles-full .views-row, .view-filter-alimentacion-full .views-row, .view-empleado .views-row, .field--name-field-news-image .views-row {
+    width: 32%; }
+
+  #block-team {
+    background-attachment: fixed; } }
 
 /*# sourceMappingURL=content.css.map */

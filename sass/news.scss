@@ -1,0 +1,96 @@
+@import "assets", "elements";
+
+.node--type-news-page, #block-views-block-news-list-block-1{
+  @extend .block_default;
+}
+
+//list of news (block / view) on news page
+#block-views-block-news-list-block-1{
+  @extend .block_default;
+  padding-top: 0 !important;
+
+  //the individual news item
+  .views-row{
+    padding-bottom: $m;
+    padding-top: $m;
+    border-bottom: 1px solid $cloudy;
+
+    .views-field-title{
+      a{
+        font-weight: 600;
+        color: $tinto;
+      }
+      a:hover{
+        color: $tintohover;
+        text-decoration: line-through;
+      }
+    }
+  }
+}
+
+.field--name-field-news-title{
+  text-align: center;
+  p{
+    @extend .title;
+    margin-bottom: 0;
+  }
+}
+
+.field--name-field-news-subtitle{
+  text-align: center;
+  p{
+    @extend .subtitle;
+    margin-top: 0;
+  }
+}
+
+//image styling
+.field--name-field-news-image{
+  .field__item{
+    @extend .block_default;
+    text-align: center;
+
+    img{
+      width: auto;
+      max-height: 300px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+    img:hover{
+      -webkit-filter: none;
+      filter: none;
+    }
+  }
+}
+
+//back button
+#block-backtonewsblock{
+  .field--name-field-block-block-link{
+    margin-bottom: $l;
+    text-align: center;
+    a{
+      @extend .button_small_red;
+    }
+  }
+}
+
+
+// === css breakpoints ===
+@media only screen and (min-width : 700px) {
+  .field--name-field-news-image {
+    .field__item{
+      display: inline-block;
+      width: 49%;
+      padding: $l 0 0 0;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (min-width : 1000px) {
+  .field--name-field-news-image {
+    .field__item{
+      width: 32%;
+    }
+  }
+}

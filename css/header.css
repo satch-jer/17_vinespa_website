@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700");
 .header-login {
   background-color: rgba(41, 49, 51, 0.95); }
   .header-login .region-header {
@@ -40,7 +40,7 @@ nav {
   #block-eltema-navigation a:hover, #block-eltema-navigation a.is-active {
     background-color: #ffffff;
     color: #293133;
-    border-bottom: 3px solid #811F58; }
+    border-bottom: 6px solid #811F58; }
 
 #block-languagedropdownswitcher {
   padding: 15px;

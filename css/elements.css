@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700");
 h1 {
   padding: 0;
   margin: 0; }
@@ -15,7 +15,7 @@ h1 {
 .title, h2, h2 a {
   text-transform: uppercase;
   font-size: 1.8rem !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   color: #293133; }
 
 h2 {
@@ -74,10 +74,11 @@ ul {
 .node-readmore, .field--name-field-content-block-link {
   text-align: center; }
   .node-readmore a, .field--name-field-content-block-link a {
-    font-weight: 500;
+    font-weight: 600;
     color: #811F58; }
   .node-readmore a:hover, .field--name-field-content-block-link a:hover {
-    color: #66146A; }
+    color: #66146A;
+    text-decoration: line-through; }
 
 select {
   border: 1px solid #969696;

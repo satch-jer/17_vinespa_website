@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700");
 #block-vinespanv {
   background-color: #293133;
   padding: 175px 25px; }
@@ -18,10 +18,12 @@
 
 #block-satch {
   text-align: center;
-  font-size: 1.3rem !important;
   text-transform: lowercase;
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  color: #293133; }
+  #block-satch p {
+    font-size: 10px !important; }
   #block-satch a {
     border-bottom: 1px dotted #293133; }
   #block-satch a:hover {

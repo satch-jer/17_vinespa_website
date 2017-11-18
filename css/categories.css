@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700");
 h1 {
   padding: 0;
   margin: 0; }
@@ -16,7 +16,7 @@ h1 {
 .title, h2, h2 a, #block-vinos .field--name-field-block-block-link a, #block-alimentacion .field--name-field-block-block-link a, #block-licores .field--name-field-block-block-link a {
   text-transform: uppercase;
   font-size: 1.8rem !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   color: #293133; }
 
 h2 {
@@ -75,10 +75,11 @@ ul {
 .node-readmore, .field--name-field-content-block-link {
   text-align: center; }
   .node-readmore a, .field--name-field-content-block-link a {
-    font-weight: 500;
+    font-weight: 600;
     color: #811F58; }
   .node-readmore a:hover, .field--name-field-content-block-link a:hover {
-    color: #66146A; }
+    color: #66146A;
+    text-decoration: line-through; }
 
 select {
   border: 1px solid #969696;
@@ -93,14 +94,22 @@ select:focus {
 #block-vinos, #block-alimentacion, #block-licores {
   padding-top: 75px;
   padding-bottom: 75px;
-  text-align: center; }
+  text-align: center;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  margin-right: -5px; }
   #block-vinos .field--name-field-block-block-icon, #block-alimentacion .field--name-field-block-block-icon, #block-licores .field--name-field-block-block-icon {
     margin-bottom: 25px; }
+
+#block-vinos:hover, #block-alimentacion:hover, #block-licores:hover {
+  background-color: #811F58; }
+  #block-vinos:hover .field--name-field-block-block-link a, #block-alimentacion:hover .field--name-field-block-block-link a, #block-licores:hover .field--name-field-block-block-link a {
+    color: #ffffff; }
 
 @media only screen and (min-width: 900px) {
   #block-vinos, #block-licores, #block-alimentacion {
     display: inline-block;
-    width: 32.9%;
+    width: 33.3%;
     padding-top: 100px;
     padding-bottom: 100px; } }
 

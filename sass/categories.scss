@@ -10,6 +10,10 @@
   padding-top: $l;
   padding-bottom: $l;
   text-align: center;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  //dirty hack to remove space between divs
+  margin-right: -5px;
 
   //icon
   .field--name-field-block-block-icon{
@@ -29,6 +33,17 @@
   }
 }
 
+#block-vinos:hover, #block-alimentacion:hover, #block-licores:hover{
+  background-color: $tinto;
+
+  //title
+  .field--name-field-block-block-link{
+    a{
+      color: $snow;
+    }
+  }
+}
+
 
 // === css breakpoints ===
 @media only screen and (min-width : 600px) {
@@ -41,7 +56,7 @@
   //show blocks next to eachother
   #block-vinos, #block-licores, #block-alimentacion{
     display: inline-block;
-    width: 32.9%;
+    width: 33.3%;
     padding-top: $xl;
     padding-bottom: $xl;
   }

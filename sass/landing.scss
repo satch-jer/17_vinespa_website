@@ -1,7 +1,7 @@
 @import "assets", "elements";
 
 .landing{
-  min-height: 350px;
+  min-height:350px;
 }
 
 .region-landing{
@@ -13,5 +13,20 @@
 
   .page-title{
     @extend .supertitle;
+    font-size: $subtitle;
+  }
+}
+
+@media only screen and (min-width : 1000px) {
+  //only do fixed bg on desktop
+  .landing{
+    background-attachment: fixed;
+  }
+
+  //bigger font on bigger screen
+  .region-landing{
+    .page-title{
+      font-size: $title !important;
+    }
   }
 }

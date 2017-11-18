@@ -21,7 +21,7 @@ h1{
 .title{
   text-transform: uppercase;
   font-size: $subtitle !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   color: $antracite;
 }
 
@@ -103,11 +103,12 @@ ul{
 .node-readmore, .field--name-field-content-block-link{
   text-align: center;
   a{
-    font-weight: 500;
+    font-weight: 600;
     color: $tinto;
   }
   a:hover{
     color: $tintohover;
+    text-decoration: line-through;
   }
 }
 

@@ -32,10 +32,15 @@ footer{
 
 #block-satch{
   text-align: center;
-  font-size: $nav !important;
   text-transform: lowercase;
   padding-top: $s;
   padding-bottom: $s;
+  color: $antracite;
+
+  p{
+    font-size: 10px !important;
+
+  }
 
   a{
     border-bottom: 1px dotted $antracite;

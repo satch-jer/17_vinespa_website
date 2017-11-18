@@ -32,7 +32,7 @@
     'block-' ~ plugin_id|clean_class,
   ]
 %}
-<div style="background-image: url('{{ file_url(content.field_content_image_block_backgr.0['#item'].entity.uri.value) }}');background-size:cover; background-attachment: fixed; background-position: center" {{ attributes.addClass(classes) }}>
+<div style="background-image: url('{{ file_url(content.field_content_image_block_backgr.0['#item'].entity.uri.value) }}');" {{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if label %}
     <h2{{ title_attributes }}>{{ label }}</h2>
