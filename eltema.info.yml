@@ -9,6 +9,7 @@ base theme: classy
 libraries:
   - core/normalize
   - eltema/global-styling
+  - eltema/fonts
 
 libraries-override:
   classy/base: false

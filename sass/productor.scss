@@ -1,0 +1,16 @@
+@import "assets", "elements";
+
+//styling of productor page
+//images of productor!
+
+.field--name-field-bebidas-productor-images{
+  max-height: 700px;
+  overflow: hidden;
+
+  margin-bottom: $m;
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700");
-@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700");
 h1 {
   padding: 0;
   margin: 0; }
@@ -103,6 +101,21 @@ select:focus {
     #views-exposed-form-filter-articles-full-block-1 .js-form-item label, #views-exposed-form-filter-alimentacion-full-block-1 .js-form-item label, #block-views-block-empleado-block-1 .js-form-item label {
       font-size: 1.5rem;
       font-weight: 700; }
+
+.pager {
+  margin-bottom: 75px;
+  text-align: center; }
+  .pager .pager__item {
+    font-size: 1.3rem;
+    font-weight: 400; }
+    .pager .pager__item a {
+      background: #811F58;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-left: 15px;
+      margin-right: 15px; }
+    .pager .pager__item a:hover {
+      background-color: #66146A; }
 
 .views-field-field-empleado-name {
   color: #293133 !important; }

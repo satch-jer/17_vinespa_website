@@ -16,12 +16,18 @@ global-styling:
       css/detail.css: {}
       css/news.css: {}
       css/footer.css: {}
+      css/productor.css: {}
   js:
     js/eltema.js: {}
   dependencies:
     - core/jquery
     - core/jquery.once
     - core/drupal
+
+fonts:
+  css:
+    theme:
+      'https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700': { type: external, minified: true }
 
 landing:
   version: 1

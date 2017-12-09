@@ -30,6 +30,33 @@
   }
 }
 
+//pagination (page 1 << >>)
+.pager{
+  margin-bottom: $l;
+  text-align: center;
+
+  .pager__item{
+    font-size: $nav;
+    font-weight: 400;
+
+    a{
+      background: $tinto;
+
+      //let it appear as a button
+      padding-top: $xs;
+      padding-bottom: $xs;
+
+      margin-left: $s;
+      margin-right: $s;
+    }
+
+    a:hover{
+      background-color: $tintohover;
+    }
+  }
+}
+
+
 //image grid
 // => styling see content.css
 // => used styling from other grid

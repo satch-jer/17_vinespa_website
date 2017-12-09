@@ -25,12 +25,11 @@
   .field--name-field-alimentacion-foto {
     text-align: center;
 
-    //same width as other images
+    //alimentacion has other format as bottles
     img {
-      width: auto;
-      max-height: 300px;
+      width: 100%;
+      height: auto;
     }
-
   }
 
   //fiche
@@ -91,6 +90,15 @@
       display: inline-block;
       width: 50%;
       margin-top: $m;
+    }
+
+    //alimentacion image
+    .field--name-field-alimentacion-foto {
+      //alimentacion has other format as bottles
+      img {
+        width: 50%;
+        height: auto;
+      }
     }
   }
 }

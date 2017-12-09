@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700");
-@import url("https://fonts.googleapis.com/css?family:Crimson+Text:400,400i|Montserrat:300,400,600,700");
 h1 {
   padding: 0;
   margin: 0; }
@@ -100,8 +98,8 @@ select:focus {
 .node--type-bebidas-page .field--name-field-alimentacion-foto, .node--type-alimentacion-page .field--name-field-alimentacion-foto {
   text-align: center; }
   .node--type-bebidas-page .field--name-field-alimentacion-foto img, .node--type-alimentacion-page .field--name-field-alimentacion-foto img {
-    width: auto;
-    max-height: 300px; }
+    width: 100%;
+    height: auto; }
 .node--type-bebidas-page .field .field__label, .node--type-alimentacion-page .field .field__label {
   display: inline-block;
   width: 125px;
@@ -130,6 +128,9 @@ select:focus {
   .node--type-bebidas-page .group-left, .node--type-bebidas-page .group-right, .node--type-alimentacion-page .group-left, .node--type-alimentacion-page .group-right {
     display: inline-block;
     width: 50%;
-    margin-top: 25px; } }
+    margin-top: 25px; }
+  .node--type-bebidas-page .field--name-field-alimentacion-foto img, .node--type-alimentacion-page .field--name-field-alimentacion-foto img {
+    width: 50%;
+    height: auto; } }
 
 /*# sourceMappingURL=detail.css.map */

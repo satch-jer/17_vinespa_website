@@ -43,7 +43,7 @@
 
 //product grid
 //<front> + portfolio + alimentacion
-.view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full, .view-empleado{
+.view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full, .view-empleado, .view-taxonomy-term{
   .view-filters{
     text-align: center;
     li{
@@ -148,7 +148,7 @@
 }
 
 @media only screen and (min-width : 1000px) {
-  .view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full, .view-empleado, .field--name-field-news-image {
+  .view-filter-articles, .view-filter-articles-full, .view-filter-alimentacion-full, .view-empleado, .field--name-field-news-image, .view-taxonomy-term {
     .views-row{
       width: 32%;
     }
